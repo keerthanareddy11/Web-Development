@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+<style>
+</style>
+</head>
+<body>
+        <div id="sectionhomePage">
+            <header>
+                <div id="menu-bar" class="fas fa-bars"></div>
+                <a href="#" class="logo"><span>T</span>ravel</a>
+                <nav class="navbar">
+                    <a href="#sectionhomePage">Home</a>
+                    <a href="#sectionBookNow">Book</a>
+                    <a href="#sectionpackage">Packages</a>
+                    <a href="#sectionservices">Services</a>
+                    <a href="#gallery">Gallery</a>
+                    <a href="review.html">Review</a>
+                    <a href="contact.html">Contact</a>
+                </nav>
+    
+                <div class="icons">
+                    <i class="fas fa-search" id="search-btn ">     
+                    </i>
+                    <a href="login.html"> <i class="fas fa-user" id="login-btn "></i></a>
+                    
+                </div>
+                <form action="" class="search-bar-container">
+                    <input type="search here" id="search-bar " placeholder="search here...">
+                    <label for="search-bar" class="fas fa-search"></label>
+                    </form>
+                    
+            </header>
+        </div>
+
+        <!--home section-->
+
+        <section class="Home" id="home">
+            <div class="content">
+                <h1>adventure is worthwhile</h1>
+                <p>discover new place with us,adventure awaits</p>
+                <a href="#" class="btn">dicover more</a>
+
+            </div>
+            <div class="controls">
+                <span class="vid-btn" data-src="vdo1.mp4"></span>
+            </div>
+            <div class="video-container">
+                <video src="vdo1.mp4" id="video-slider" loop autoplay muted></video>
+            </div>
+        </section>
+        <!--booking section starts here-->
+      
+        <div id="sectionBookNow">
+            <section class="book" id="book">
+                <div class="booking_heading_section">
+                    
+                    <div class="booking_heading_container">
+                        <div class="booking_heading-part-div">
+                            B
+                        </div>
+                        <div class="booking_heading-part-div">
+                            O
+                        </div>
+                        <div class="booking_heading-part-div">
+                            O
+                        </div>
+                        <div class="booking_heading-part-div" style="margin-right: 10px;">
+                            K
+                        </div>
+                        <div class="booking_heading-part-div" style="margin-left: 10px;">
+                            N
+                        </div>
+                        <div class="booking_heading-part-div">
+                            O
+                        </div>
+                        <div class="booking_heading-part-div">
+                            W
+                        </div>
+                    </div>
+                </div> 
+                <div  class="bookingStatusText" id="StatusText">
+                    <h2 id="bookingStatusText" class="statustext"></h2>
+                </div>
+                <div class="row">
+                    <div class="image">
+                        <img src="img2.jpg" alt="">
+                    </div>
+                    <form action="">
+                            <div class="inputBox">
+                                <h3>where to</h3>
+                                <input type="text" placeholder="place name" id="placeName">
+                
+                            </div>
+                            <div class="inputBox">
+                                <h3>How many</h3>
+                                <input type="number" placeholder="number of guests" id="noOfGuests">
+                
+                            </div>
+                            <div class="inputBox">
+                                <h3>arrivals</h3>
+                                <input type="date" id="arrivalDate">
+                            </div>
+                            <div class="inputBox">
+                                <h3>leaving</h3>
+                                <input type="date" id="leavingDate">
+                            </div>
+                            <input type="submit" class="btn" value="Book now" id="bookNowbtn">
+                
+                    </form>
+                </div>
+                
+            </section>
+        </div>
+        <!--booking sectionn ends here-->
+
+        <!--packages section starts here-->
+            
+        <div id="sectionpackage">
+                <section class="packages" id="packages">
+                    <div class="packages_heading_section">
+                        <div class="packages_heading_container">
+                            <div class="packages_heading-part-div">
+                                p
+                            </div>
+                            <div class="packages_heading-part-div">
+                                a
+                            </div>
+                            <div class="packages_heading-part-div">
+                                c
+                            </div>
+                            <div class="packages_heading-part-div">
+                                K
+                            </div>
+                            <div class="packages_heading-part-div">
+                                a
+                            </div>
+                            <div class="packages_heading-part-div">
+                                g
+                            </div>
+                            <div class="packages_heading-part-div">
+                                e
+                            </div>
+                            <div class="packages_heading-part-div">
+                                s
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="box-container">
+                        <div class="box">
+                            <img src="manali.webp" alt="">
+                            <div class="content">
+                                <h3><i class="fas fa-map-maker-alt"></i>Manali</h3>
+                                <p>Valley of the Gods </p>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <div class="price">5000.00 <span>6000.00</span></div>
+                                <a href="#sectionBookNow" class="btn">Book Now</a>
+                            </div>
+                        </div>
+                    
+                        <div class="box">
+                            <img src="kerala.jpg" alt="">
+                            <div class="content">
+                                <h3><i class="fas fa-map-maker-alt"></i>Kerala</h3>
+                                <p> Nature's masterpiece </p>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <div class="price">20000.00 <span>25000.00</span></div>
+                                <a href="" class="btn">Book Now</a>
+                            </div>
+                        </div>
+                    
+                
+                        <div class="box">
+                            <img src="go1.jpg" alt="">
+                            <div class="content">
+                                <h3><i class="fas fa-map-maker-alt"></i>Gokarna</h3>
+                                <p>     Natural Beauty  </p>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <div class="price">15000.00 <span>16000.00</span></div>
+                                <a href="#" class="btn">Book Now</a>
+                            </div>
+                    
+                        </div>
+                        <div class="box">
+                            <img src="badrinath.webp" alt="">
+                            <div class="content">
+                                <h3><i class="fas fa-map-maker-alt"></i>Badrinath</h3>
+                                <p> Echoes of devotion in the mountains  </p>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <div class="price">20000.00 <span>26000.00</span></div>
+                                <a href="#" class="btn">Book Now</a>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <img src="hyd.jpeg" alt="">
+                            <div class="content">
+                                <h3><i class="fas fa-map-maker-alt"></i>Hyderabad</h3>
+                                <p> History meets Modernity</p>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <div class="price">5000.00 <span>10000.00</span></div>
+                                <a href="#" class="btn">Book Now</a>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <img src="go3.jpg" alt="">
+                            <div class="content">
+                                <h3><i class="fas fa-map-maker-alt"></i>Goa</h3>
+                                <p>       From beach walks to Sunset Talks  </p>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <div class="price">5000.00 <span>10000.00</span></div>
+                                <a href="#" class="btn">Book Now</a>
+                            </div>
+                        </div>
+
+                    </div>
+                
+
+
+            </section>
+        </div>
+        <!--packages section ends here-->
+
+        <div id="sectionservices">
+            <section class="services" id="services" style="padding-top: 50px;">
+                <div class="services_heading_section">
+                    <div class="services_heading_container">
+                        <div class="services_heading-part-div">
+                            s
+                        </div>
+                        <div class="services_heading-part-div">
+                            e
+                        </div>
+                        <div class="services_heading-part-div">
+                            r
+                        </div>
+                        <div class="services_heading-part-div">
+                            v
+                        </div>
+                        <div class="services_heading-part-div">
+                            i
+                        </div>
+                        <div class="services_heading-part-div">
+                            c
+                        </div>
+                        <div class="services_heading-part-div">
+                            e
+                        </div>
+                        <div class="services_heading-part-div">
+                            s
+                        </div>
+                    </div>
+                </div> 
+                <div class="box-container">
+                    <div class="box">
+                        <i class="fas fa-hotel"></i>
+                        <h3>Affordable hotels</h3>
+                        <p>       We offer you budjet friendly hotels with various facilities  and greater experience            </p>
+                    </div>
+                    <div class="box">
+                        <i class="fas fa-utensils"></i>
+                        <h3>Food and drinks</h3>
+                        <p>       Hundreds of restaurants will be providing services from our global travel community
+                        </p>
+                    </div>
+                    <div class="box">
+                        <i class="fas fa-bullhorn"></i>
+                        <h3>safety guide</h3>
+                        <p>           From Family Travel to Solo Adventures to Specific Destinations - We Will Cover It All. A practical guide to more (and better) travel, no matter where you are in life.    </p>
+                    </div>
+                    <div class="box">
+                        <i class="fas fa-globe-asia"></i>
+                        <h3>Around the world</h3>
+                        <p>    Design and development of personalized tour packages. You can include or allow flexibility in the time you want to travel.    </p>
+                    </div>
+                    <div class="box">
+                        <i class="fas fa-plane"></i>
+                        <h3>fastest travel</h3>
+                        <p>            Book Flights at Best Price Now — Secure bookings with 24 * 7 excellent customer support. Easy cancellation & refunds.   </p>
+                    </div>
+                    <div class="box">
+                        <i class="fas fa-hiking"></i>
+                        <h3>Adventures</h3>
+                        <p>  include activities such as mountaineering, trekking, bungee jumping, mountain biking, cycling, canoeing, scuba diving, rafting, zip-lining, paragliding, hiking, exploring, Geocaching, sandboarding and rock climbing.    </p>
+                    </div>
+
+                </div>
+            </section>
+        </div>
+        <!--services setion starts here-->
+
+        <!--Gallery section starts here-->
+        <div id="sectiongallery">
+            <section class="gallery" id="gallery">
+                <div class="gallery_heading_section">
+                    <div class="gallery_heading_container">
+                        <div class="gallery_heading-part-div">
+                            g
+                        </div>
+                        <div class="gallery_heading-part-div">
+                            a
+                        </div>
+                        <div class="gallery_heading-part-div">
+                            l
+                        </div>
+                        <div class="gallery_heading-part-div">
+                            l
+                        </div>
+                        <div class="gallery_heading-part-div">
+                            e
+                        </div>
+                        <div class="gallery_heading-part-div">
+                            r
+                        </div>
+                        <div class="gallery_heading-part-div">
+                            y
+                        </div>
+                    </div>
+                </div> 
+                <div class="box-container">
+                    <div class="box">
+                        <img src="a1.jpeg" alt="">
+                        <div class="content">
+                            <h3>amazing places</h3>
+                            <p>    </p>
+                            <a href="#" class="btn">see more</a>
+                        </div>
+                    </div>
+            
+                    <div class="box">
+                        <img src="a2.jpg" alt="">
+                        <div class="content">
+                            <h3>amazing places</h3>
+                            <p>    </p>
+                            <a href="#" class="btn">see more</a>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="taj.avif" alt="">
+                        <div class="content">
+                            <h3>amazing places</h3>
+                            <p>    </p>
+                            <a href="#" class="btn">see more</a>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="munnar.jpeg" alt="">
+                        <div class="content">
+                            <h3>amazing places</h3>
+                            <p>    </p>
+                            <a href="#" class="btn">see more</a>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="ayodya.jpg" alt="">
+                        <div class="content">
+                            <h3>amazing places</h3>
+                            <p>    </p>
+                            <a href="#" class="btn">see more</a>
+                        </div>
+                    </div>
+                
+                    <div class="box">
+                        <img src="kashmir.webp" alt="">
+                        <div class="content">
+                            <h3>amazing places</h3>
+                            <p>    </p>
+                            <a href="#" class="btn">see more</a>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="paris.jpg" alt="">
+                        <div class="content">
+                            <h3>amazing places</h3>
+                            <p>    </p>
+                            <a href="#" class="btn">see more</a>
+                        </div>
+                    </div>
+                    <div class="box">
+                    <img src="singapore.jpeg" alt="">
+                        <div class="content">
+                            <h3>amazing places</h3>
+                            <p>    </p>
+                            <a href="#" class="btn">see more</a>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+        </div>
+        <!--sevices section ends here-->
+
+        <script src="script.js"></script>
+        <script>
+            /**  Secction Book now ***/
+            let placeNameEL = document.getElementById("placeName");
+            let noOfGuestsEL = document.getElementById("noOfGuests");
+            let arrivalDateEl = document.getElementById("arrivalDate");
+            let leavingDateEl = document.getElementById("leavingDate");
+            let bookNowbtn = document.getElementById("bookNowbtn");
+            let bookingStatusTextEl = document.getElementById("bookingStatusText");
+
+            bookNowbtn.addEventListener("click",function(event){
+                let placeName = placeNameEL.value;
+                let noOfGuests = noOfGuestsEL.value;
+                let arrivalDate = arrivalDateEl.value;
+                let leavingDate = leavingDateEl.value;
+                if (placeName !== "" && noOfGuests!== "" && arrivalDate!== "" && leavingDate!== "") {
+                    bookingStatusTextEl.textContent = "Your Booking has Done Successfully......";
+                    placeNameEL.value = "";
+                    noOfGuestsEL.value = "";
+                    arrivalDateEl.value = "";
+                    leavingDateEl.value = "";
+                }
+                else {
+                    alert("Fill all the Details Please");
+                }
+            });
+
+
+
+        </script>
+</body>
+</html>
